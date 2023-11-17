@@ -1,0 +1,70 @@
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:azure;
+    margin: 0;
+}
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+ 
+
+}
+.panel{
+   
+    background-color:aliceblue;
+    width: 260px;
+    margin: 5px;
+    height: 300px;
+
+  
+
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+}
+.imagepanel{
+    height: 280px;
+   
+
+}
+
+#loadingSpinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+}
+
+.spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
